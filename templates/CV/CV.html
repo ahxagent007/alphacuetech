@@ -388,7 +388,7 @@
 			<div class="row">
 				{% for w in W %}
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="{{w.W_link}}" class="work" style="background-image: url({% static 'CV/'%}{{w.W_pic}});" target="_blank">
+					<a href="{{w.W_link}}" class="work" style="background-image: url({{w.W_pic}});" target="_blank">
 						<div class="desc">
 							<h3>{{w.W_name}}</h3>
 							<span>{{w.W_skill}}</span>
